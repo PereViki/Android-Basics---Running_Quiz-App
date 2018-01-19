@@ -1,4 +1,4 @@
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_name">Running Quiz</string>
 
     <!--Label of the Quiz-->
@@ -16,65 +16,101 @@
     <!--Start quiz button label-->
     <string name="start_quiz">Start quiz</string>
 
-    <!--question label-->
-    <string name="question_label">Question</string>
+    <!--question 1 label-->
+    <string name="question_label_1">Question 1</string>
 
-    <!--1st question text [TODO give max char length]-->
+    <!--question 2 label-->
+    <string name="question_label_2">Question 2</string>
+
+    <!--question 3 label-->
+    <string name="question_label_3">Question 3</string>
+
+    <!--question 4 label-->
+    <string name="question_label_4">Question 4</string>
+
+    <!--question 5 label-->
+    <string name="question_label_5">Question 5</string>
+
+    <!--1st question text -->
     <string name="question_1">What is the distance of a full Marathon?</string>
 
-    <!--2nd question text [TODO give max char length]-->
-    <string name="question_2">How long is a lap on a track?</string>
+    <!--2nd question text -->
+    <string name="question_2">How long should you hold a static stretch?</string>
 
-    <!--3rd question text [TODO give max char length]-->
-    <string name="question_3">What is the best way for a beginner to find the right pace at which they should be running?</string>
+    <!--3rd question text -->
+    <string name="question_3">Which of the following is not a good rule for runners to practice?</string>
 
-    <!--4th question text [TODO give max char length]-->
-    <string name="question_4">When training for a marathon, when should the longest run of your training program be completed?</string>
+    <!--4th question text -->
+    <string name="question_4">What should one bring to a long distance race?</string>
 
-    <!--5th question text [TODO give max char length]-->
-    <string name="question_5">Which of the following is not a good rule for runners to practice?</string>
+    <!--5th question text -->
+    <string name="question_5">What is the surname of one of the most popular runner in the word, whose first name is Usain?</string>
 
-    <!--6th question text [TODO give max char length]-->
-    <string name="question_6">How long should you hold a static stretch?</string>
+    <!--6th question text -->
+    <string name="question_6">What is the surname of one of the most popular runner in the word, whose first name is Usain?</string>
 
-    <!--7th question text [TODO give max char length]-->
-    <string name="question_7">What should everybody\'s running program start with?</string>
-
-    <!--8th question text [TODO give max char length]-->
-    <string name="question_8">Which of the following is from the liver and gets converted into a blood sugar, and then delivered through the blood stream?</string>
-
-    <!--9th question text [TODO give max char length]-->
-    <string name="question_9">What is the maximum amount of times a person should race in a month?</string>
-
-    <!--10th question text [TODO give max char length]-->
-    <string name="question_10">Which of the following is the body\'s primary source of energy during running or any sort of exercise for that matter?</string>
-
-    <!--Answer A for the 1st question [TODO give max char length]-->
+    <!--Answer A for the 1st question -->
     <string name="answer_1_a">30 km</string>
 
-    <!--Answer B for the 1st question [TODO give max char length]-->
+    <!--Answer B for the 1st question -->
     <string name="answer_1_b">13.1 miles</string>
 
-    <!--Answer C for the 1st question [TODO give max char length]-->
+    <!--Answer C for the 1st question -->
     <string name="answer_1_c">42.195 km</string>
 
-    <!--Answer D for the 1st question [TODO give max char length]-->
+    <!--Answer D for the 1st question -->
     <string name="answer_1_d">50 km</string>
 
-    <!--Answer A for the 2nd question [TODO give max char length]-->
-    <string name="answer_2_a">1000 m</string>
+    <!--Answer A for the 2nd question -->
+    <string name="answer_2_a">About 60 seconds</string>
 
-    <!--Answer B for the 3rd question [TODO give max char length]-->
-    <string name="answer_2_b">400 m</string>
+    <!--Answer B for the 2nd question -->
+    <string name="answer_2_b">15 to 30 seconds</string>
 
-    <!--Answer C for the 4th question [TODO give max char length]-->
-    <string name="answer_2_c">800 m</string>
+    <!--Answer C for the 2nd question -->
+    <string name="answer_2_c">90 to 120 seconds</string>
 
-    <!--Answer D for the 5th question [TODO give max char length]-->
-    <string name="answer_2_d">250 m</string>
+    <!--Answer D for the 2nd question -->
+    <string name="answer_2_d">At least 120 seconds</string>
 
-    <!--Lable of the SUBMIT button [TODO give max char length]-->
+    <!--Answer A for the 3rd question -->
+    <string name="answer_3_a">Never run against the traffic.</string>
+
+    <!--Answer B for the 3rd question -->
+    <string name="answer_3_b">Do not wear a head set.</string>
+
+    <!--Answer C for the 3rd question -->
+    <string name="answer_3_c">Make yourself visiible when running at night.</string>
+
+    <!--Answer D for the 3rd question -->
+    <string name="answer_3_d">"Run in a unpopulated area. "</string>
+
+    <!--Answer A for the 4th question -->
+    <string name="answer_4_a">Gel</string>
+
+    <!--Answer B for the 4th question -->
+    <string name="answer_4_b">Hidration</string>
+
+    <!--Answer C for the 4th question -->
+    <string name="answer_4_c">BCAA tablets</string>
+
+    <!--Answer D for the 4th question -->
+    <string name="answer_4_d">Roller skates</string>
+
+    <!--Hint for Answer for the 5th question -->
+    <string name="answer_5_hint">name</string>
+
+    <!--Answer A for the 5th question -->
+    <string name="answer_5_a">Bolt</string>
+
+    <!--Lable of the SUBMIT button -->
     <string name="submit">Submit</string>
+
+    <!--Results in a toast message text -->
+    <string name="toast_message">Out of 5 questions you answered <xliff:g id="points" example="3">%d</xliff:g> correctly</string>
+
+    <!--Lable of the Your result label button -->
+    <string name="your_result_label">Your result is</string>
 
 </resources>
 

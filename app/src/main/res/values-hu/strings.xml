@@ -1,29 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_name">Futó Quiz</string>
     <string name="welcome_img">kép futókról</string>
     <string name="welcome_msg">Érdekel a futás?\nLássuk, tudsz-e válaszolni néhány kérdésre vele kapcsolatban! \nSok sikert!</string>
     <string name="start_quiz">Quiz indítása</string>
-    <string name="question_label">Kérdés</string>
     <string name="question_1">Milyen hosszú a teljes maratoni táv?</string>
-    <string name="question_2">Milyen hosszú egy kör a futópályán?</string>
-    <string name="question_3">Mi a legjobb módszer arra, hogy egy kezdő futó meghatározza a megfelelő tempót?</string>
-    <string name="question_4">Maratoni felkészülés során, a verseny előtt mikor legyen az utolsó hosszú futás?</string>
-    <string name="question_5">Melyik szabály nem megfelelő a futó számára?</string>
-    <string name="question_6">Milyen hosszan kell kitartani egy-egy nyújtógyakorlatot?</string>
-    <string name="question_7">Mivel kezdődik egy kezdő  futó edzésprogramja?</string>
-    <string name="question_8">Melyik anyag származik a májból, alakulvércukorrá  és kerül a véráramba?</string>
-    <string name="question_9">Maximum hányszor versenyezzünk egy hónapban?</string>
-    <string name="question_10">Melyik a test elsődleges energiaforrása futáskor, vagy egyéb gyakorlat végzésekor?</string>
+    <string name="question_2">Milyen hosszan kell kitartani egy-egy nyújtógyakorlatot?</string>
+    <string name="question_3">Melyik szabály nem megfelelő a futó számára?</string>
+    <string name="question_4">Mit vigyünk magunkkal egy hosszútávú versenyre?</string>
+    <string name="question_5">Mi a családneve a világ egyik leghíresebb futójának, akinek keresztneve Usain?</string>
+    <string name="question_6">Mi a családneve a világ egyik leghíresebb futójának, akinek keresztneve Usain?</string>
     <string name="answer_1_a">30 km</string>
     <string name="answer_1_b">13,1 mérföld</string>
     <string name="answer_1_c">42,195 km</string>
     <string name="answer_1_d">50 km</string>
-    <string name="answer_2_a">1000 m</string>
-    <string name="answer_2_b">400 m</string>
-    <string name="answer_2_c">800 m</string>
-    <string name="answer_2_d">250 m</string>
+    <string name="answer_2_a">Kb. 60 másodpercig</string>
+    <string name="answer_2_b">15–30 másodpercig</string>
+    <string name="answer_2_c">90–120 másodpercig</string>
+    <string name="answer_2_d">Legalább 120 másodpercig</string>
     <string name="submit">Elküld</string>
     <string name="label_quiz">Kérdések</string>
     <string name="label_result">Eredmény</string>
+    <string name="question_label_1">1. Kérdés</string>
+    <string name="question_label_2">2. Kérdés</string>
+    <string name="question_label_3">3. Kérdés</string>
+    <string name="question_label_4">4. Kérdés</string>
+    <string name="question_label_5">5. Kérdés</string>
+    <string name="answer_3_a">Soha ne fussunk  a forgalommal szemben.</string>
+    <string name="answer_3_b">Ne viseljünk fülhallgatót.</string>
+    <string name="answer_3_c">Tegyük láthatóvá magunkat sötétben.</string>
+    <string name="answer_3_d">Fussunk elhagyatott helyen.</string>
+    <string name="answer_4_a">Zselé</string>
+    <string name="answer_4_b">Hidratáció</string>
+    <string name="answer_4_c">BCAA tablets</string>
+    <string name="answer_4_d">Görkorcsolya</string>
+    <string name="answer_5_a">Bolt</string>
+    <string name="answer_5_hint">név</string>
+    <string name="your_result_label">Az eredményed</string>
+    <string name="toast_message">5 kérdésre <xliff:g id="points" example="3">%d</xliff:g> helyes választ adtál</string>
 </resources>
