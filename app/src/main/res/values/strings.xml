@@ -1,0 +1,80 @@
+<resources>
+    <string name="app_name">Running Quiz</string>
+
+    <!--Label of the Quiz-->
+    <string name="label_quiz">Questions</string>
+
+    <!--Label of the Results-->
+    <string name="label_result">Result</string>
+
+    <!--Content description for the runners img-->
+    <string name="welcome_img">runners image</string>
+
+    <!--Welcome message text-->
+    <string name="welcome_msg">Are you interested in running? \nLet\'s see if you can answer a couple of question about it! \nGood luck!</string>
+
+    <!--Start quiz button label-->
+    <string name="start_quiz">Start quiz</string>
+
+    <!--question label-->
+    <string name="question_label">Question</string>
+
+    <!--1st question text [TODO give max char length]-->
+    <string name="question_1">What is the distance of a full Marathon?</string>
+
+    <!--2nd question text [TODO give max char length]-->
+    <string name="question_2">How long is a lap on a track?</string>
+
+    <!--3rd question text [TODO give max char length]-->
+    <string name="question_3">What is the best way for a beginner to find the right pace at which they should be running?</string>
+
+    <!--4th question text [TODO give max char length]-->
+    <string name="question_4">When training for a marathon, when should the longest run of your training program be completed?</string>
+
+    <!--5th question text [TODO give max char length]-->
+    <string name="question_5">Which of the following is not a good rule for runners to practice?</string>
+
+    <!--6th question text [TODO give max char length]-->
+    <string name="question_6">How long should you hold a static stretch?</string>
+
+    <!--7th question text [TODO give max char length]-->
+    <string name="question_7">What should everybody\'s running program start with?</string>
+
+    <!--8th question text [TODO give max char length]-->
+    <string name="question_8">Which of the following is from the liver and gets converted into a blood sugar, and then delivered through the blood stream?</string>
+
+    <!--9th question text [TODO give max char length]-->
+    <string name="question_9">What is the maximum amount of times a person should race in a month?</string>
+
+    <!--10th question text [TODO give max char length]-->
+    <string name="question_10">Which of the following is the body\'s primary source of energy during running or any sort of exercise for that matter?</string>
+
+    <!--Answer A for the 1st question [TODO give max char length]-->
+    <string name="answer_1_a">30 km</string>
+
+    <!--Answer B for the 1st question [TODO give max char length]-->
+    <string name="answer_1_b">13.1 miles</string>
+
+    <!--Answer C for the 1st question [TODO give max char length]-->
+    <string name="answer_1_c">42.195 km</string>
+
+    <!--Answer D for the 1st question [TODO give max char length]-->
+    <string name="answer_1_d">50 km</string>
+
+    <!--Answer A for the 2nd question [TODO give max char length]-->
+    <string name="answer_2_a">1000 m</string>
+
+    <!--Answer B for the 3rd question [TODO give max char length]-->
+    <string name="answer_2_b">400 m</string>
+
+    <!--Answer C for the 4th question [TODO give max char length]-->
+    <string name="answer_2_c">800 m</string>
+
+    <!--Answer D for the 5th question [TODO give max char length]-->
+    <string name="answer_2_d">250 m</string>
+
+    <!--Lable of the SUBMIT button [TODO give max char length]-->
+    <string name="submit">Submit</string>
+
+</resources>
+

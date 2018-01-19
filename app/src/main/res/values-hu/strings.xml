@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Futó Quiz</string>
+    <string name="welcome_img">kép futókról</string>
+    <string name="welcome_msg">Érdekel a futás?\nLássuk, tudsz-e válaszolni néhány kérdésre vele kapcsolatban! \nSok sikert!</string>
+    <string name="start_quiz">Quiz indítása</string>
+    <string name="question_label">Kérdés</string>
+    <string name="question_1">Milyen hosszú a teljes maratoni táv?</string>
+    <string name="question_2">Milyen hosszú egy kör a futópályán?</string>
+    <string name="question_3">Mi a legjobb módszer arra, hogy egy kezdő futó meghatározza a megfelelő tempót?</string>
+    <string name="question_4">Maratoni felkészülés során, a verseny előtt mikor legyen az utolsó hosszú futás?</string>
+    <string name="question_5">Melyik szabály nem megfelelő a futó számára?</string>
+    <string name="question_6">Milyen hosszan kell kitartani egy-egy nyújtógyakorlatot?</string>
+    <string name="question_7">Mivel kezdődik egy kezdő  futó edzésprogramja?</string>
+    <string name="question_8">Melyik anyag származik a májból, alakulvércukorrá  és kerül a véráramba?</string>
+    <string name="question_9">Maximum hányszor versenyezzünk egy hónapban?</string>
+    <string name="question_10">Melyik a test elsődleges energiaforrása futáskor, vagy egyéb gyakorlat végzésekor?</string>
+    <string name="answer_1_a">30 km</string>
+    <string name="answer_1_b">13,1 mérföld</string>
+    <string name="answer_1_c">42,195 km</string>
+    <string name="answer_1_d">50 km</string>
+    <string name="answer_2_a">1000 m</string>
+    <string name="answer_2_b">400 m</string>
+    <string name="answer_2_c">800 m</string>
+    <string name="answer_2_d">250 m</string>
+    <string name="submit">Elküld</string>
+    <string name="label_quiz">Kérdések</string>
+    <string name="label_result">Eredmény</string>
+</resources>
