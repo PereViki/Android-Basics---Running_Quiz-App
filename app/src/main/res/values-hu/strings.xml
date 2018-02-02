@@ -32,10 +32,22 @@
     <string name="answer_3_d">Fussunk elhagyatott helyen.</string>
     <string name="answer_4_a">Zselé</string>
     <string name="answer_4_b">Hidratáció</string>
-    <string name="answer_4_c">BCAA tablets</string>
+    <string name="answer_4_c">BCAA tabletták</string>
     <string name="answer_4_d">Görkorcsolya</string>
     <string name="answer_5_a">Bolt</string>
     <string name="answer_5_hint">név</string>
     <string name="your_result_label">Az eredményed</string>
-    <string name="toast_message">5 kérdésre <xliff:g id="points" example="3">%d</xliff:g> helyes választ adtál</string>
+    <string name="toast_message">5 kérdésre <xliff:g example="3" id="points">%d</xliff:g> helyes választ adtál</string>
+    <string name="initialPercent">100%</string>
+    <string name="toast_message_fill_error">Nem adtál minden kérdésre választ!</string>
+    <string name="send">Eredmény küldése</string>
+    <string name="user">Neved</string>
+    <string name="email_subject"><xliff:g example="Viki" id="userName">%s</xliff:g> Futó Quiz eredménye</string>
+    <string name="email_body_1">Kedves <xliff:g example="Viki" id="userName">%s</xliff:g>!</string>
+    <string name="email_body_2">"A Futó Quiz eredményed "</string>
+    <string name="email_body_3">" ÉS "</string>
+    <string name="email_body_4">Köszönjük, hogy kitöltötted a kérdőívet!</string>
+    <string name="email_body_6">A Futó Quiz csapata</string>
+    <string name="email_body_7">Íme a helyes válaszok:</string>
+    <string name="toast_message_username_error">Kérlek add meg a neved!</string>
 </resources>

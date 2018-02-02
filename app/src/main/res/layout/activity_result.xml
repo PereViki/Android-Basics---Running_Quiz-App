@@ -1,47 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    style="@style/matchPar"
     tools:context=".MainActivity">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:padding="36dp">
+    <LinearLayout style="@style/mainLayout">
 
         <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="0dp"
-            android:layout_weight="2"
-            android:layout_marginBottom="42dp"
-            android:scaleType="fitCenter"
-            android:src="@drawable/running"
-            android:contentDescription="@string/welcome_img"/>
+            style="@style/runnersImg"
+            android:contentDescription="@string/welcome_img"
+            android:padding="@dimen/space0" />
 
         <TextView
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_marginBottom="8dp"
-            android:layout_weight="1"
-            android:text="@string/your_result_label"
-            android:textAlignment="center"
-            android:textSize="24sp"
-            android:textStyle="bold"
-            android:textAllCaps="true"/>
+            style="@style/resultLabel"
+            android:padding="@dimen/space0"
+            android:text="@string/your_result_label" />
 
         <TextView
             android:id="@+id/result_percentage"
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_marginBottom="24dp"
-            android:layout_weight="4"
-            android:text="100%"
-            android:textAlignment="center"
-            android:textSize="72sp"
-            android:textStyle="bold"
-            android:textAllCaps="true"/>
+            style="@style/resultPercent"
+            android:layout_weight="1"
+            android:text="@string/initialPercent" />
+
+        <Button
+            style="@style/startButton"
+            android:onClick="sendResult"
+            android:text="@string/send" />
 
     </LinearLayout>
 

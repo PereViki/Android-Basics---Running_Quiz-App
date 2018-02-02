@@ -1,39 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    style="@style/matchPar"
     tools:context=".MainActivity">
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:padding="36dp">
+        style="@style/mainLayout"
+        android:paddingTop="@dimen/space0">
 
         <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="0dp"
-            android:layout_weight="3"
-            android:paddingBottom="18dp"
-            android:scaleType="fitCenter"
-            android:src="@drawable/running"
-            android:contentDescription="@string/welcome_img"/>
+            style="@style/runnersImg"
+            android:contentDescription="@string/welcome_img"
+            android:padding="@dimen/space0" />
 
         <TextView
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_marginBottom="36dp"
-            android:layout_weight="1"
-            android:text="@string/welcome_msg"
-            android:textAlignment="center"
-            android:textSize="16sp" />
+            style="@style/introText"
+            android:layout_margin="@dimen/space0"
+            android:text="@string/welcome_msg" />
+
+        <EditText
+            android:id="@+id/userName"
+            style="@style/matchWrap"
+            android:layout_weight="0"
+            android:hint="@string/user"
+            android:inputType="textCapWords" />
 
         <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_weight="0"
+            style="@style/startButton"
+            android:layout_marginTop="@dimen/textSizeS"
             android:onClick="startQuiz"
             android:text="@string/start_quiz" />
 

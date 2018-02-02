@@ -107,10 +107,23 @@
     <string name="submit">Submit</string>
 
     <!--Results in a toast message text -->
-    <string name="toast_message">Out of 5 questions you answered <xliff:g id="points" example="3">%d</xliff:g> correctly</string>
+    <string name="toast_message">Out of 5 questions you answered <xliff:g example="3" id="points">%d</xliff:g> correctly</string>
 
     <!--Lable of the Your result label button -->
     <string name="your_result_label">Your result is</string>
+    <string name="percent" translatable="false">%</string>
+    <string name="initialPercent">100%</string>
+    <string name="toast_message_fill_error">You haven\'t filled out every question!</string>
+    <string name="send">Send result</string>
+    <string name="user">Your name</string>
+    <string name="email_subject"><xliff:g example="Viki" id="userName">%s</xliff:g>\'s Running Quiz result</string>
+    <string name="email_body_1">Dear <xliff:g example="Viki" id="userName">%s</xliff:g>,</string>
+    <string name="email_body_2">"Your result on the Running Quiz is "</string>
+    <string name="email_body_3">" AND "</string>
+    <string name="email_body_4">Thank you for filling in our quiz!</string>
+    <string name="email_body_6">The Running Quiz team</string>
+    <string name="email_body_7">Here are the correct answers for you:</string>
+    <string name="toast_message_username_error">Please type your name!</string>
 
 </resources>
 

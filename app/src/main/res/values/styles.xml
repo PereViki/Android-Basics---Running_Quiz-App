@@ -8,4 +8,96 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="matchPar" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">match_parent</item>
+    </style>
+
+    <style name="wrapCont" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+
+    <style name="matchWrap" parent="matchPar">
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="mainLayout" parent="matchWrap">
+        <item name="android:orientation">vertical</item>
+        <item name="android:padding">@dimen/spaceXL</item>
+        <item name="android:focusable">true</item>
+        <item name="android:focusableInTouchMode">true</item>
+    </style>
+
+    <style name="radioButton" parent="matchWrap">
+        <item name="android:layout_marginBottom">@dimen/spaceS</item>
+        <item name="android:paddingLeft">@dimen/spaceS</item>
+    </style>
+
+    <style name="divider" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/lineWeight</item>
+        <item name="android:background">@color/colorAccent</item>
+        <item name="android:layout_marginTop">@dimen/spaceS</item>
+        <item name="android:layout_marginBottom">@dimen/spaceL</item>
+    </style>
+
+    <style name="questionNumber" parent="wrapCont">
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingRight">@dimen/spaceS</item>
+        <item name="android:paddingBottom">@dimen/spaceM</item>
+    </style>
+
+    <style name="question" parent="matchWrap">
+        <item name="android:paddingBottom">@dimen/spaceM</item>
+    </style>
+
+    <style name="textField" parent="matchWrap">
+        <item name="android:paddingLeft">@dimen/spaceS</item>
+        <item name="android:layout_marginBottom">@dimen/spaceS</item>
+        <item name="android:inputType">textCapWords</item>
+    </style>
+
+    <style name="runnersImg" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">2</item>
+        <item name="android:padding">@dimen/spaceM</item>
+        <item name="android:scaleType">fitCenter</item>
+        <item name="android:src">@drawable/running</item>
+        <item name="android:contentDescription">@string/welcome_img</item>
+    </style>
+
+    <style name="startButton" parent="wrapCont">
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_weight">0</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="introText" parent="matchPar">
+        <item name="android:layout_height">@dimen/space0</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_marginBottom">@dimen/spaceXL</item>
+        <item name="android:layout_marginTop">@dimen/spaceM</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/textSizeS</item>
+    </style>
+
+    <style name="resultLabel" parent="introText">
+        <item name="android:layout_marginBottom">@dimen/space0</item>
+        <item name="android:layout_marginTop">@dimen/space0</item>
+        <item name="android:textSize">@dimen/textSizeL</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="resultPercent" parent="resultLabel">
+        <item name="android:layout_weight">2</item>
+        <item name="android:layout_marginBottom">@dimen/spaceL</item>
+        <item name="android:layout_marginTop">@dimen/space0</item>
+        <item name="android:textSize">@dimen/textSizeXL</item>
+    </style>
+
 </resources>
