@@ -30,16 +30,17 @@
     </style>
 
     <style name="radioButton" parent="matchWrap">
-        <item name="android:layout_marginBottom">@dimen/spaceS</item>
+        <item name="android:layout_marginBottom">@dimen/spaceM</item>
         <item name="android:paddingLeft">@dimen/spaceS</item>
+        <item name="android:textSize">@dimen/textSizeS</item>
     </style>
 
     <style name="divider" parent="Theme.AppCompat.Light.DarkActionBar">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">@dimen/lineWeight</item>
         <item name="android:background">@color/colorAccent</item>
-        <item name="android:layout_marginTop">@dimen/spaceS</item>
-        <item name="android:layout_marginBottom">@dimen/spaceL</item>
+        <item name="android:layout_marginTop">@dimen/spaceM</item>
+        <item name="android:layout_marginBottom">@dimen/spaceXL</item>
     </style>
 
     <style name="questionNumber" parent="wrapCont">
@@ -47,16 +48,19 @@
         <item name="android:textStyle">bold</item>
         <item name="android:paddingRight">@dimen/spaceS</item>
         <item name="android:paddingBottom">@dimen/spaceM</item>
+        <item name="android:textSize">@dimen/textSizeS</item>
     </style>
 
     <style name="question" parent="matchWrap">
-        <item name="android:paddingBottom">@dimen/spaceM</item>
+        <item name="android:paddingBottom">@dimen/spaceL</item>
+        <item name="android:textSize">@dimen/textSizeS</item>
     </style>
 
     <style name="textField" parent="matchWrap">
         <item name="android:paddingLeft">@dimen/spaceS</item>
         <item name="android:layout_marginBottom">@dimen/spaceS</item>
         <item name="android:inputType">textCapWords</item>
+        <item name="android:textSize">@dimen/textSizeS</item>
     </style>
 
     <style name="runnersImg" parent="Theme.AppCompat.Light.DarkActionBar">
@@ -90,7 +94,7 @@
         <item name="android:textSize">@dimen/textSizeL</item>
         <item name="android:textAllCaps">true</item>
         <item name="android:textStyle">bold</item>
-        <item name="android:layout_weight">1</item>
+        <item name="android:layout_weight">2</item>
     </style>
 
     <style name="resultPercent" parent="resultLabel">

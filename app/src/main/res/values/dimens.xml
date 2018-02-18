@@ -7,7 +7,7 @@
     <dimen name="spaceS">8dp</dimen>
     <dimen name="lineWeight">1dp</dimen>
     <dimen name="space0">0dp</dimen>
-    <dimen name="textSizeS">16sp</dimen>
+    <dimen name="textSizeS">18sp</dimen>
     <dimen name="textSizeL">24sp</dimen>
     <dimen name="textSizeXL">60sp</dimen>
 </resources>

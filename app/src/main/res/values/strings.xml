@@ -1,4 +1,6 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!--Name of the app-->
     <string name="app_name">Running Quiz</string>
 
     <!--Label of the Quiz-->
@@ -111,18 +113,44 @@
 
     <!--Lable of the Your result label button -->
     <string name="your_result_label">Your result is</string>
+
+    <!--Percent sign -->
     <string name="percent" translatable="false">%</string>
+
+    <!-- 100% the initial value of the result label -->
     <string name="initialPercent">100%</string>
-    <string name="toast_message_fill_error">You haven\'t filled out every question!</string>
+
+    <!-- Error message for not answering each questions -->
+    <string name="toast_message_fill_error">You haven\'t answered every question!</string>
+
+    <!--Lable of the Send button -->
     <string name="send">Send result</string>
+
+    <!--Hint of the name field -->
     <string name="user">Your name</string>
+
+    <!-- Text of the subject of the e-mail -->
     <string name="email_subject"><xliff:g example="Viki" id="userName">%s</xliff:g>\'s Running Quiz result</string>
+
+    <!-- Text of the subject of the e-mail -->
     <string name="email_body_1">Dear <xliff:g example="Viki" id="userName">%s</xliff:g>,</string>
+
+    <!--Message part 1-->
     <string name="email_body_2">"Your result on the Running Quiz is "</string>
+
+    <!--Message part 2-->
     <string name="email_body_3">" AND "</string>
+
+    <!--Message part 3-->
     <string name="email_body_4">Thank you for filling in our quiz!</string>
+
+    <!--Message part 4-->
     <string name="email_body_6">The Running Quiz team</string>
+
+    <!--Message part 5-->
     <string name="email_body_7">Here are the correct answers for you:</string>
+
+    <!--Error message for not entering a user name-->
     <string name="toast_message_username_error">Please type your name!</string>
 
 </resources>

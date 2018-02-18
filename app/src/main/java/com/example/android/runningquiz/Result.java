@@ -24,14 +24,15 @@ public class Result extends AppCompatActivity {
         finalPoints = getIntent().getExtras().getInt("points");
         percent = (finalPoints * 100) / 5;
 
-        resultPercentage = (TextView) findViewById(R.id.result_percentage);
+        resultPercentage = findViewById(R.id.result_percentage);
         resultPercentage.setText(percent + getString(R.string.percent));
 
         userName = getIntent().getExtras().getString("userName");
     }
 
+    // Composing an e-mail with the results
+    // and the correct answers
     public void sendResult(View view) {
-
 
         mailBody = getString(R.string.email_body_1, userName) +
                 "\n" + getString(R.string.email_body_2) + resultPercentage.getText() +
@@ -66,5 +67,4 @@ public class Result extends AppCompatActivity {
             startActivity(mailIntent);
         }
     }
-
 }

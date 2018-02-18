@@ -2,14 +2,15 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     style="@style/matchPar"
-    tools:context=".MainActivity">
+    tools:context=".Result">
 
     <LinearLayout style="@style/mainLayout">
 
         <ImageView
             style="@style/runnersImg"
-            android:contentDescription="@string/welcome_img"
-            android:padding="@dimen/space0" />
+            android:layout_marginBottom="@dimen/spaceL"
+            android:layout_weight="7"
+            android:contentDescription="@string/welcome_img" />
 
         <TextView
             style="@style/resultLabel"
@@ -19,7 +20,7 @@
         <TextView
             android:id="@+id/result_percentage"
             style="@style/resultPercent"
-            android:layout_weight="1"
+            android:layout_weight="4"
             android:text="@string/initialPercent" />
 
         <Button

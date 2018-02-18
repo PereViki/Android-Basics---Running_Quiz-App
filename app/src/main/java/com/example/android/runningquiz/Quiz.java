@@ -58,7 +58,6 @@ public class Quiz extends AppCompatActivity {
         cb4_4 = findViewById(R.id.wrong_answer_4_4);
         et1 = findViewById(R.id.right_answer_5);
 
-
         userName = getIntent().getExtras().getString("userName");
 
     }
@@ -74,31 +73,26 @@ public class Quiz extends AppCompatActivity {
                 && !et1.getText().toString().equals("")) {
 
             // Check first answer - RADIO BUTTON
-
             if (rb1_3.isChecked()) {
                 points += 1;
             }
 
             // Check second answer RADIO BUTTON
-
             if (rb2_2.isChecked()) {
                 points += 1;
             }
 
             // Check third answers CHECKBOXES
-
             if (cb3_1.isChecked() && !cb3_2.isChecked() && !cb3_3.isChecked() && cb3_4.isChecked()) {
                 points += 1;
             }
 
             // Check fourth answers CHECKBOXES
-
             if (cb4_1.isChecked() && cb4_2.isChecked() && cb4_3.isChecked() && !cb4_4.isChecked()) {
                 points += 1;
             }
 
             // Check fifth answer EDIT TEXT
-
             et1Text = et1.getText().toString();
             String rightAnswer = getString(R.string.answer_5_a);
             if (et1Text.equals(rightAnswer)) {
@@ -106,7 +100,6 @@ public class Quiz extends AppCompatActivity {
             }
 
             // Calculate result
-
             text = getString(R.string.toast_message, points);
             duration = Toast.LENGTH_LONG;
 

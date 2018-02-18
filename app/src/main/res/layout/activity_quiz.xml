@@ -179,7 +179,8 @@
         <!-- Question 5 END -->
 
         <Button
-            style="@style/wrapCont"
+            style="@style/startButton"
+            android:layout_gravity="left"
             android:onClick="submitAnswers"
             android:text="@string/submit" />
 

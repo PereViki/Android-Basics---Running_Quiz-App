@@ -15,7 +15,6 @@ public class MainActivity extends AppCompatActivity {
     int duration;
     Toast toast;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -26,7 +25,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     // Upon clilking on the Start Quiz button the Quiz activity will open.
-
     public void startQuiz(View view) {
         userName = userNameTV.getText().toString();
         if (userName.equals("")) {

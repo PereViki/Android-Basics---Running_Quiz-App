@@ -4,23 +4,22 @@
     style="@style/matchPar"
     tools:context=".MainActivity">
 
-    <LinearLayout
-        style="@style/mainLayout"
-        android:paddingTop="@dimen/space0">
+    <LinearLayout style="@style/mainLayout">
 
         <ImageView
             style="@style/runnersImg"
-            android:contentDescription="@string/welcome_img"
-            android:padding="@dimen/space0" />
+            android:layout_marginBottom="@dimen/spaceL"
+            android:layout_weight="6"
+            android:contentDescription="@string/welcome_img" />
 
         <TextView
             style="@style/introText"
-            android:layout_margin="@dimen/space0"
+            android:layout_height="wrap_content"
             android:text="@string/welcome_msg" />
 
         <EditText
             android:id="@+id/userName"
-            style="@style/matchWrap"
+            style="@style/textField"
             android:layout_weight="0"
             android:hint="@string/user"
             android:inputType="textCapWords" />
